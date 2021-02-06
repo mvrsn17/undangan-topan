@@ -1,5 +1,5 @@
 (function () {
-  let mymap = L.map("map-canvas-3").setView(
+  let mymap = L.map("map-canvas-3", { scrollWheelZoom: false }).setView(
     [-5.199036843802378, 119.45099369034443],
     17
   );
