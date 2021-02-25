@@ -6,9 +6,7 @@
 
   let marker = L.marker([-5.178635195755666, 119.45995570273618]).addTo(mymap);
 
-  marker
-    .bindPopup("<b>Inimi Tempatnya</b><br>Minasa Upa Blok N9/29.")
-    .openPopup();
+  marker.bindPopup("<b>Lokasi Acara</b><br>Minasa Upa Blok N9/29.").openPopup();
 
   let map = L.tileLayer(
     "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
